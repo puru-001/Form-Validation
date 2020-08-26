@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- <form action="" class="container mt-4">
+        <input type="text" id="username" class="form-control" placeholder="enter username">
+
+        <button id="btn">Submit</button>
+    </form> -->
+
+    <!-- section.col-md-4.offset-4.card.mt-4>.card-body>h1.display-5{login}+div.form-group*3 -->
+    <!-- form for client side validation -->
+    <section class="col-md-4 offset-4 card mt-4">
+        <div class="card-body">
+            <h1 class="display-5 text-center text-uppercase">login</h1>
+            <div class="alert" id="errors"></div>  <!----for Errors---->
+
+            <form action="" method="get" id="form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="enter username">
+
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" id="password"
+                        placeholder="enter password">
+
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="index5.js"></script>
+</body>
+
+</html>
